@@ -1,0 +1,21 @@
+{
+  "urls": {
+    "googleUrl": "https://www.google.ru/",
+    "byndyusoftUrl": "https://byndyusoft.com/",
+    "telegramUrl": "http://t.me/alexanderbyndyu"
+  },
+
+  "searchQueries": {
+    "byndyusoft": "Byndyusoft"
+  },
+  
+  "selectors": {
+    "searchInput": "[name='q']",
+    "byndyusoftInSearch": "#search a:first-child[href='https://byndyusoft.com/'"
+  },
+
+  "buttons": {
+    "presentationButton": ".knowMore span",
+    "telegramButton": ".popup-callback__content a[target='_blank']"
+  }
+}
